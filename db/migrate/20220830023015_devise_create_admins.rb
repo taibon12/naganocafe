@@ -6,7 +6,6 @@ class DeviseCreateAdmins < ActiveRecord::Migration[6.1]
       ## Database authenticatable
       t.string :email,              null: false, default: ""
       t.string :encrypted_password, null: false, default: ""
-      t.datetime :update_at, null: false, default: "now"
 
       ## Recoverable
       t.string   :reset_password_token
